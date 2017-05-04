@@ -1,0 +1,111 @@
+/*Grayscale Palette from darkest to brightest
+
+- Black
+- DimGrey 
+- DarkGray
+- LightGray
+- Gainsboro
+- GhostWite
+*/
+
+
+body {
+  background-color: gainsboro;
+  font-family: 'inder', sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.inverse {
+  background-color:hotpink;
+  
+}
+.nav {
+  background-color:black;
+  border: none;
+}
+
+/*Offset the page links*/
+/*
+http://stackoverflow.com/questions/4086107/html-positionfixed-page-header-and-in-page-anchors
+*/
+:target:before {
+  content:"";
+  display:block;
+  height:60px; /* fixed header height*/
+  margin:-60px 0 0; /* negative fixed header height */
+}
+
+.jumbotron {
+  color: ghostwhite;
+  height: 90vh;
+  background: -webkit-linear-gradient(top left, black, dimgray);
+  background: linear-gradient(to bottom right, black, dimgray);
+}
+
+#MyName {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+/* #MyGallery {
+  background-color: hotpink;
+} */
+
+.footer {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: black;
+  color: gainsboro;
+  text-align: center;
+}
+
+.footer i {
+  
+  padding: 0.5em;
+/*   font-size: 40px; */
+  font-size: 4vw;
+  -webkit-transition: color 500ms;
+  transition: color 500ms;
+}
+
+.footer i, a {
+  color: gainsboro;
+}
+
+.footer i:hover {
+  color: ghostwhite;
+  font-size: 4.5vw;
+  padding-top: 0.4em;
+}
+
+#contact {
+  font-size: 2vw;
+}
+
+.caption{
+/*   border: dotted hotpink 1px; */
+  margin-top: -1em;
+  height: 10em;
+  
+}
+
+/* .caption h3 {
+  font-size: 2em;
+}
+
+.caption p {
+  color: hotpink; 
+/font-size: 2vmax;
+} */
