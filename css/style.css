@@ -1,7 +1,7 @@
 /*Grayscale Palette from darkest to brightest
 
 - Black
-- DimGrey 
+- DimGrey
 - DarkGray
 - LightGray
 - Gainsboro
@@ -24,7 +24,7 @@ h4 {
 
 .inverse {
   background-color:hotpink;
-  
+
 }
 .nav {
   background-color:black;
@@ -60,6 +60,12 @@ http://stackoverflow.com/questions/4086107/html-positionfixed-page-header-and-in
 }
 
 
+.row.fix {
+  display: flex;
+  flex-wrap: wrap;
+  width:100%; /*not always necessary*/
+}
+
 .footer {
   margin-left: 0;
   margin-right: 0;
@@ -69,7 +75,7 @@ http://stackoverflow.com/questions/4086107/html-positionfixed-page-header-and-in
 }
 
 .footer i {
-  
+
   padding: 0.5em;
 /*   font-size: 40px; */
   font-size: 4vw;
@@ -95,6 +101,5 @@ http://stackoverflow.com/questions/4086107/html-positionfixed-page-header-and-in
 /*   border: dotted hotpink 1px; */
   margin-top: -1em;
   height: 10em;
-  
-}
 
+}
